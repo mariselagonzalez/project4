@@ -1,17 +1,17 @@
   
 	.indexbody{
-		background: url("images/tumblr_nvgt3bG2ed1uynyeao1_500.gif.png") ;
-		background-size: fit;
+		background: url("images/brightsky.jpg") ;
+		background-size: cover;
 		cursor: url('images/cursor.png'), auto;
     } 
 	
-li a {
+    li a{
     display: block;
-    color: White;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	font-size: 50px;
+	font-size: 40px;
 
 }
 
@@ -19,25 +19,24 @@ body {
   margin: 40px;
 }
 
-    }  
-    .goodhealthbody{
-		background: url("images/vitalsbackground.gif") ;
-		    background-size: cover;
+.goodhealthbody {
+	background: url("images/IM-2.-Dash-Diet-The-Diet-Created-to-Help-Those-With-High-Blood-Pressure.gif");
+		    background-size: fit;
 		        cursor: url('images/cursor.png'), auto;
 
     } 
 	
 	.clothesbody{
-		background: url("images/clothesbackground.jpg") ;
-			background-size: fit;
+		background: url("images/images.jpg") ;
+			background-size: cover;
 				cursor: url('images/cursor.png'), auto;
 
     }  
 	
-	.siblingsbody{
-		background: url("images/skyyyy.jpg") ;
-		    background-size: cover;
-		       cursor: url('images/cursor.png'), auto;
+	.familybody{
+		background: url("images/beachback.jpg") ;
+			 background-size: cover;
+              cursor: url('images/cursor.png'), auto;
     } 
 	
 	
