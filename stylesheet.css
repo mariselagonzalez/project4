@@ -12,25 +12,22 @@
     padding: 14px 16px;
     text-decoration: none;
 	font-size: 40px;
+	}
 
-}
+	body {
+		margin: 40px;
+	}
 
-body {
-  margin: 40px;
-}
-
-.goodhealthbody {
-	background: url("images/IM-2.-Dash-Diet-The-Diet-Created-to-Help-Those-With-High-Blood-Pressure.gif");
-		    background-size: fit;
-		        cursor: url('images/cursor.png'), auto;
-
+	.goodhealthbody {
+	background: url("images/Background.png");
+	background-size: cover;
+	cursor: url('images/cursor.png'), auto;
     } 
 	
 	.clothesbody{
-		background: url("images/images.jpg") ;
-			background-size: cover;
-				cursor: url('images/cursor.png'), auto;
-
+	background: url("images/images.jpg") ;
+	background-size: cover;
+	cursor: url('images/cursor.png'), auto;
     }  
 	
 	.familybody{
@@ -40,24 +37,58 @@ body {
     } 
 	
 	
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-html{
-  background-color:#eee;
-}
-.container{
-  margin: 20px auto;
-  width:400px;
-  height:400px;
-  display:grid;
-  grid-template-columns: 200px 200px;
-  grid-row: auto auto;
-  grid-column-gap: 20px;
-  
-  .box{
-    align-items:center;
-    justify-content:center;
-  }
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+	
+	html{
+		background-color:#eee;
+	}
+	.container{
+		margin: 20px auto;
+		width:400px;
+		height:400px;
+		display:grid;
+		grid-template-columns: 200px 200px;
+		grid-row: auto auto;
+		grid-column-gap: 20px;
+	}
+	.box{
+		align-items:center;
+		justify-content:center;
+	}
+	
+	.grid2{
+		margin: 20px auto;
+		width:400px;
+		height:400px;
+		display:grid;
+		grid-template-columns: 200px 200px 200px;
+		grid-row: auto auto;
+		grid-column-gap: 20px;
+	}
+	
+	.box2{ 
+	     align-items:center;
+		 grid-columns-start: 1;
+         grid-column-end: span 1;
+    }		 
+	
+	.box3{ 
+	     align-items:center;
+		 grid-columns-start: 2;
+         grid-column-end: span 1;
+    }	
+	
+	.box4{ 
+	     align-items:center;
+		 grid-columns-start: 3;
+         grid-column-end: span 1;
+    }	
+
+
+		 
+		 
+		 
   
